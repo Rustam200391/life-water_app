@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# An application for finding natural sources of drinking water with the function of adding new sources by users and compiling a rating of water quality based on user reviews
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
