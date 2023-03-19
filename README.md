@@ -1,5 +1,5 @@
 # Self-written application
-<img 
+<img src=""
 
 ## Getting Started with Create React App
 
