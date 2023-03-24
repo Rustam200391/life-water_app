@@ -22,7 +22,8 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### An application for finding natural sources of drinking water with the function of adding new sources by users and compiling a rating of water quality based on user reviews 
+### 
+An application for finding natural sources of drinking water with the function of adding new sources by users and compiling a rating of water quality based on user reviews 
 
 ### `npm run build`
 
