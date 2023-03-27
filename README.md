@@ -23,9 +23,7 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### 
-An application for finding natural sources of drinking water
-![image](https://user-images.githubusercontent.com/88620625/227726443-e2c60ec7-05b0-45c4-9f29-59a1822dc00a.png)
- with the function of adding new sources by users and compiling a rating of water quality based on user reviews ![image](https://user-images.githubusercontent.com/88620625/227726504-7cda6f0d-2d1f-46f0-b71c-f169444a7be9.png)
+An application for finding natural sources of drinking water with the function of adding new sources by users and compiling a rating of water quality based on user reviews ![image](https://user-images.githubusercontent.com/88620625/227726504-7cda6f0d-2d1f-46f0-b71c-f169444a7be9.png)
 
 
 ### `npm run build`
