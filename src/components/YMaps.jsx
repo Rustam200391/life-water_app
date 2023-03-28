@@ -3,8 +3,13 @@ import { YMaps,Map } from '@pbe/react-yandex-maps';
 export const YMap = () => (
   <YMaps>
     <div>
-      My awesome application with maps!
-      <Map defaultState={{ center: [55.75, 37.57], zoom: 9 }} />
+    <p>Sources of drinking water!</p>
+      <Map defaultState={{ center: [40.39, 49.83], zoom: 15 }} 
+      width="100vw"
+      height="100vh"
+       />
     </div>
   </YMaps>
 );
+
+
