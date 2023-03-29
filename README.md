@@ -26,7 +26,10 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
     ### step1:
 ![image](https://user-images.githubusercontent.com/88620625/227726443-e2c60ec7-05b0-45c4-9f29-59a1822dc00a.png)
 An application for finding natural sources of drinking water with the function of adding new sources by users and compiling a rating of water quality based on user reviews
-<i></i>
+<i>
+task today
+ 1. find an example of determining your own location.
+2.find an example of adding a point to the map</i>
 
 ![image](https://user-images.githubusercontent.com/88620625/227726504-7cda6f0d-2d1f-46f0-b71c-f169444a7be9.png)
 
