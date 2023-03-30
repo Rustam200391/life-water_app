@@ -8,6 +8,7 @@ const images = [...Array(16)].map((n,i) => {
   const letter = String.fromCharCode(i +90);
   //String.fromCharCode - возвращает строку, созданную из указанной последовательности кодовых единиц UTF-16
   return `https://img.icons8.com/ios-filled/1x/marker-${letter}.png`;
+  
   // https://icons8.com/icons/set/pure
 });
 
