@@ -1,16 +1,14 @@
-import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
+import { YMaps, Map, Placemark, GeoObject } from "@pbe/react-yandex-maps";
 
 const center = [40.39, 49.83]; 
 // геокоординаты Баку
 
-const images = [...Array(16)].map((n,i) => {
-  // перебор массива с изображениями иконок
-  const letter = String.fromCharCode(i +90);
-  //String.fromCharCode - возвращает строку, созданную из указанной последовательности кодовых единиц UTF-16
-  return `https://img.icons8.com/ios-filled/1x/marker-${letter}.png`;
-  
-  // https://icons8.com/icons/set/pure
+const images = [...Array(26)].map((n,i) => {
+  const letter = String.fromCharCode(i + 97);
+  return `https://img.icons8.com/ios-filled/2x/marker-${letter}.png`;
 });
+
+
 
 export const YMap = (props) => (
   <YMaps query={{ load: "package.full" }}>
@@ -21,7 +19,7 @@ export const YMap = (props) => (
         // Параметры карты.
         center,
         // геокоординаты
-        zoom: 15,
+        zoom: 13,
         // масштабирование карты
         controls: []
         // Элементы управления картой.
@@ -29,6 +27,15 @@ export const YMap = (props) => (
       width="100vw"
       height="100vh"
     >
+        <GeoObject
+          geometry={{
+            type:'LineString',
+            coordinates: [
+              [40.407215, 49.930896],
+
+            ],
+          }}
+          />
       {images.map((n) => (
         <Placemark
           key={n}
@@ -43,6 +50,5 @@ export const YMap = (props) => (
     </Map>
   </YMaps>
 );
-
 
 

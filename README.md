@@ -46,3 +46,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### use ymap library `https://pbe-react-yandex-maps.vercel.app/en/api/panorama/`
 
 ### `https://codesandbox.io/s/pbe-react-yandex-maps-react-18-forked-0seipx?file=/src/index.js:295-352`
+
+#### more info https://www.youtube.com/watch?v=a0jXjt9yiyw
